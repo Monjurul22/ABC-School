@@ -12,11 +12,12 @@
    
     justify-content: space-between;
     margin: auto;
-  
+   
     
   
 
 }
+
 .nav_bar{
     padding: 20px 0px;
     width: 1600px;
@@ -87,8 +88,28 @@
     margin-top: 20px;
     visibility: hidden;
 }
+.hero_banner{
+    width: 1600px;
+    height: 575px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    visibility: hidden;
+    
+}
+.hero_banner_content{
+    width: 640px;
+    height: 331px;
+    background-color: #FEA301;
+    margin-top: 140px;
+}
+.hero_banner_content h1{
+    font-family: "Quicksand", serif;
+}
+
 /* nav_bar responsive */
-@media screen and (max-width: 430px) {
+
+@media screen and (max-width:430){
     .nav_logo h1, .navbar, .Contact_btn{
         visibility: hidden;
     }
@@ -111,5 +132,6 @@
         display: flex;
         justify-content: space-between;
     }
-    
 }
+
+    
