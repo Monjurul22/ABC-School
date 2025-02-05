@@ -91,7 +91,7 @@
 .hero_banner{
     width: 1600px;
     height: 575px;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
    
@@ -100,7 +100,7 @@
 .hero_banner_content{
     width: 640px;
     height: 331px;
-    background-color: #dbd0be; 
+    /* background-color: #dbd0be;  */
     margin-top: 140px;
 }
 .hero_banner_content h1{
@@ -130,18 +130,177 @@
     font-family: "Quicksand", serif;
     font-size: 20px;
     font-weight: 400;
+    gap: 10PX;
    
 }
-.Enroll_Now_btn{
+.Enroll_Now_btn {
     display: flex;
-width: 197px;
-padding: 10px;
-justify-content: center;
-align-items: center;
-gap: 10px;
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: Black;
+    text-decoration: none;
+    color: white;
+    font-family: "Quicksand", serif;
+    margin-top: 20PX;
+}
+.Enroll_Now_btn a{
+    /* text-decoration: none;
+    color: white;
+    font-family: "Quicksand", serif; */
 }
 .hero_banner_content_img{
 
+}
+
+/* Standard_Curriculum */
+.Standard_Curriculum{
+    background-image: url(./assets/bg.png);
+    display: flex;
+    font-family: "Quicksand", serif;
+    width: 1600px;
+    padding: 60px 0px; 
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    
+    
+}
+.Standard_Curriculum h2{
+   
+    text-align: center;
+
+    font-size: 46px;
+  
+    font-weight: 700;
+    line-height: 57.5px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.card_1 ,.card_2 ,.card_3{
+    display: flex;
+    width: 367px;
+    height: 476px;
+    padding: 52px 40px 53px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+
+}
+.card_1{
+    border-radius: 18.864px;
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.card_2{
+    border-radius: 18.864px;
+    border: 0.943px solid #FFF4DC;
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.card_3{
+    border-radius: 18.864px;
+    border: 0.943px solid #F2E8FF;
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.card_1 >a ,.card_2 >a ,.card_3 >a{
+    text-decoration: none;
+}
+.icon_1{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.icon_less ,.icon_gater {
+    background-color: #FEA301;
+    color: #ffff;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 17px 0px 19px 0px;
+    justify-content: center;
+    align-items: center;
+ 
+    border-radius: 30px;
+}
+/* Our_Stories */
+.Our_Stories{
+    display: flex;
+    width: 1600px;
+    padding: 60px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    
+}
+.Stories{
+    display: flex;
+width: 1440px;
+padding: 60px 0px;
+
+align-items: center;
+gap: 80px;
+    
+    
+}
+.Stories_2{
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 800px;
+padding: 60px 0px;
+
+align-items: center;
+gap: 80px;
+    
+}
+.Stories_3{
+    display: flex;
+    
+padding: 60px 0px;
+
+align-items: center;
+gap: 80px;
+    
+} 
+.story_1{
+    width: 540.267px;
+height: 630.518px;
+flex-shrink: 0;
+border-radius: 16px;
+background: #b31e1e;
+}
+.story_2 img{
+    border-radius: 16px 16px 0px 0px;
+    /* background: url(<path-to-image>) lightgray 50% / cover no-repeat, #FFF; */
+width: 291px;
+
+
+
+
+}
+.story_2{
+
+width: 290.693px;
+/* padding: 157.809px 38.347px 28.76px 38.347px; */
+background-color: #FEA301;
+flex-direction: column;
+border-radius: 16px;
+/* background: #FFF; */
+
+
+gap: 19.174px;
 }
 
 /* nav_bar responsive */
