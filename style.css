@@ -94,17 +94,54 @@
     background-color: red;
     display: flex;
     justify-content: space-between;
-    visibility: hidden;
+   
     
 }
 .hero_banner_content{
     width: 640px;
     height: 331px;
-    background-color: #FEA301;
+    background-color: #dbd0be; 
     margin-top: 140px;
 }
 .hero_banner_content h1{
     font-family: "Quicksand", serif;
+    color: black;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+}
+.orange_test{
+    color: #FEA301;
+    /* font-family: "Quicksand", serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px; /* 108.929% */
+} 
+.sky_blue_text{
+    color: #01ACFD;
+    
+    /* font-family: "Quicksand", serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px; */
+}
+.hero_banner_content p{
+    color: black;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+.Enroll_Now_btn{
+    display: flex;
+width: 197px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.hero_banner_content_img{
+
 }
 
 /* nav_bar responsive */
