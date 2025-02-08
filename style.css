@@ -165,16 +165,11 @@
     padding: 60px 0px; 
     flex-direction: column;
     align-items: center;
-    gap: 80px;
-    
-    
+    gap: 80px;  
 }
 .Standard_Curriculum h2{
-   
     text-align: center;
-
     font-size: 46px;
-  
     font-weight: 700;
     line-height: 57.5px;
 }
@@ -230,39 +225,29 @@
     padding: 17px 0px 19px 0px;
     justify-content: center;
     align-items: center;
- 
+
     border-radius: 30px;
 }
 /* Our_Stories */
 
 .Our_Stories_banner{
-   
-
-
-
-
     background:  linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
-    
 }
 .Our_Stories{
     background: url("./assets/bg.png"); 
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 .heding{
     padding: 0px 0px 60px 0px;
     text-align: center;
     font-family: "Quicksand", serif;
     font-size: 46px;
-    
     font-weight: 700;
     line-height: 57px;
 }
 .Stories{
     display: flex;
-    
-   
 }
 .Stories_2{
     display: flex;
@@ -272,14 +257,13 @@
 }
 .Stories_3{
     display: flex;
-    
 }
 .story_1{
     width: 540.267px;
-height: 630.518px;
-flex-shrink: 0;
-border-radius: 16px;
-background: #FFF;
+    height: 630.518px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
 }
 .story_1 h4{
     width: 402.495px;
@@ -317,16 +301,10 @@ background: #FFF;
     font-weight: 500;
     line-height: 28px; 
 
-
-
-
-
 }
 .story_1{
     background-image: url("./assets/story-1.png");
     background-repeat: no-repeat;
-    
-
 }
 .story_2{
     background-image: url("./assets/story-2.png");
@@ -400,32 +378,26 @@ background: #FFF;
 }
 
 .story_1 .date{
-  
-
     margin-top: 315px;
 }
 .story_2 .date{
-  
     border-radius: 47.934px;
-background: #95B226;
+    background: #95B226;
     margin-top: 157px;
 }
 .story_3 .date{
-  
     border-radius: 47.934px;
-background: #5D58F0;
+    background: #5D58F0;
     margin-top: 157px;
 }
 .story_4 .date{
-  
     border-radius: 47.934px;
-background: #95B226;
+    background: #95B226;
     margin-top: 157px;
 }
 .story_5 .date{
     border-radius: 47.934px;
     background: #95B226;
-
     margin-top: 157px;
 }
 footer{
@@ -442,24 +414,22 @@ footer{
     height: auto;
     background: none;
     margin-top: 124px;
-
 }
 .Kids_Education p{
     color: #FFF;
     font-family: "Quicksand", serif;
-font-size: 20px;
+    font-size: 20px;
     margin-top: 80px;
-font-weight: 400;
-width: 399.02px;
+    font-weight: 400;
+    width: 399.02px;
 
 }
 .Kids_Education h2{
     color: #FFF;
     font-family: "Quicksand", serif;
-font-size: 42px;
-
-font-weight: 700;
-line-height: 39px; /* 93.75% */
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 39px;
 }
 .Kids_Education .img img{
     background-color: #01ACFD;
@@ -468,9 +438,9 @@ line-height: 39px; /* 93.75% */
 .About_School h3{
     color: #FFF;
     font-family: "Quicksand", serif;
-font-size: 24px;
-font-weight: 700;
-margin-left: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 32px;
 
 }
 .About_School{
@@ -486,17 +456,15 @@ margin-left: 32px;
 }
 .About a{
     text-decoration: none;
-    color: #FFF;
-    
+    color: #FFF; 
    
 }
 .Keep_In_Touch h3{
     color: #FFF;
     font-family: "Quicksand", serif;
-font-size: 26px;
-
-font-weight: 700;
-line-height: 26px; /* 100% */
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
 }
 .Keep_In_Touch{
     margin-top: 124px;
